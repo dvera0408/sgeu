@@ -116,11 +116,3 @@ La aplicación estará disponible en `http://localhost:8000`.
 - **routes/web.php**: Rutas web
 - **public/**: Archivos públicos (CSS, JS compilados, imágenes)
 
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
-## Soporte
-
-Si encuentras algún problema o tienes preguntas, por favor abre un issue en el repositorio de GitHub.
