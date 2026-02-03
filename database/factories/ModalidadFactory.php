@@ -6,15 +6,12 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 
 class ModalidadFactory extends Factory
 {
-    public function definition(): array
+public function definition(): array
     {
         return [
-            'nombre' => fake()->unique()->randomElement([
-                'Baile', 'Ponencia', 'Futbol',
-                'Baloncesto', 'Canto', 'Obra'
-            ]),
-            'descripcion' => fake()->sentence(),
-            'habilitado' => true,
+            'nombre'      => $this->faker->unique()->catchPhrase(),
+            'descripcion' => $this->faker->realTextBetween(50, 140),
+            'habilitado'  => true,
         ];
     }
 }
